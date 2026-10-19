@@ -5,13 +5,14 @@ body {
   margin: 0;
 }
 
+
 /* Header Styles */
 
 .top-bar {
     display: flex;
     flex-direction: column;
     background-color: #1F2937;
-    flex: 1;
+    flex: 1 1 0%;
     margin: 0;
     
 }
@@ -20,7 +21,7 @@ body {
     display: flex;
     justify-content: space-between;
     color: white;
-    padding: 0px 160px;
+    padding: 0px 192px;
     align-items: center;
 }
 
@@ -42,7 +43,7 @@ a {
     display: flex;
     justify-content: space-between;
     color: white;
-    padding:128px 160px;
+    padding:128px 192px;
     margin:0;
 
 }
@@ -63,9 +64,10 @@ button {
     background-color: #3882F6;
     color: white;
     border: none;
-    padding: 8px 24px;
+    padding: 8px 32px;
     border-radius: 8px;
-    cursor: pointer;
+    font-size:16px;
+
 }
 
 .content .left {
@@ -74,14 +76,17 @@ button {
 }
 
 .content .right {
-    background-color:lightslategray;
-    padding: 96px 176px;   
+    background-color:darkgrey;
+    padding: 96px 176px;
+    color:dimgrey;
 }
+
+/* Info Section Styles */
 
 .info {
     background-color:white;
     margin: 0;
-    padding: 0px 160px;
+    padding: 0px 192px;
 }
 
 .info h3 {
@@ -100,9 +105,8 @@ button {
 .box {
     width: 200px;
     height: 200px;
-
     border-radius: 24px;
-    border: 4px solid #3882F6; 
+    border: 4px solid #3882F6;
 }
 
 .info1 p, .info2 p, .info3 p, .info4 p {
@@ -114,8 +118,60 @@ button {
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding: 0px 32px;
+    padding: 0 0 64px 0;
 }
+
+
+/*Quote Section Styles*/
+
+.quote {
+    background-color: #E5E7EB;
+    padding: 64px 192px;
+    font-size: 36px;
+    font-style: italic;
+    color:dimgrey;
+    margin: 0;
+}
+
+.quote h6 {
+    text-align: right;
+    font-size: 24px;
+    font-style: normal;
+    color:#1F2937;
+    margin: 0;
+}
+
+/*Signup Section Styles*/
+
+.signup {
+    margin: 64px 192px;
+    background-color: #3882F6;
+    border-radius: 8px;
+    display:flex;
+    color:white;
+    justify-content:space-between;
+    align-items: center;
+    gap:32px;
+    padding: 32px 128px;
+}
+
+.signup p {
+    font-size: 20px;
+}
+
+.signup button {
+    border: 2px solid white;
+}
+
+/* Footer Section Styles */
+.footer {
+    text-align: center;
+    background-color: #1F2937;
+    color:white;
+    font-size:16px;
+    padding: 24px;
+}
+
 
 
 
